@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    margin-top: 1rem;
+}
+
+.item {
+    background-color: antiquewhite;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.container {
+    display: grid;
+    /* grid-template-columns: auto auto auto; */
+    /* grid-template-columns: 300px 1fr 2fr; */
+    grid-template-columns: repeat(3, 1fr);
+    background-color: cadetblue;
+    /* column-gap: 10px;
+    row-gap: 10px; */
+    grid-gap: 10px;
+}
